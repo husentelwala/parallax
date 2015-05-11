@@ -1,0 +1,36 @@
+body { overflow-x:hidden; background:#FFF; font-family: 'Open Sans', sans-serif; }
+* { margin:0px; padding:0px; }
+.banner-main {  height:600px; background:#F00; }
+.banner { background:url('../images/1200.jpg') no-repeat top center fixed; width:100%; height:100%; }
+.long-scroll { height:3200px; }
+.main-header { padding:50px 0px; background:#fff; position:fixed; z-index:11; top:0px; left:0px; width:100%; -webkit-transition: all 0.5s  ease-out; -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; transition: all 0.5s ease-out; box-shadow:0px 1px 5px rgba(0,0,0,.5) }
+.main-header.scroll-down { top:-80px; } 
+.main-nav  { text-align:center; }
+.main-nav li { display:inline-block; list-style:none; text-align:center }
+.main-nav li a { display:inline-block; padding:10px 30px; color:#000; font-size:20px; text-decoration:none;  }
+.fixed-header { padding:10px 0px; }
+
+.right-align { position:absolute; top:310px; right:50%;  }
+.main-content { height:2000px; position:relative; background:#88BCE1 url('../images/sky-runway.png') repeat-x left top fixed; background-size: cover; overflow:hidden; }
+.left-align { position:absolute; left:50%; padding-top:100vh; margin-top:-196px; }
+.right-align { position:absolute;  }
+
+.data-conter { background:#CCC; padding:300px 0px; }
+.parasuit-container { background:url('../images/slide-bg-1-min.jpg'); height:2000px; position:relative; overflow:hidden; color:#194851; padding:30px;  }
+.parasuit-container .content p { margin-bottom:100px ;}
+.parasuit-container .content  { width:40%; float:right; }
+.parasuit-container .content:after { content:''; clear:both; display:table; }
+.parasuit { left: 10%; position: absolute; top: -25.00%;  }
+.debug { min-width:150px; }
+.iPhone6 { background:url('../images/iPhone6.png') no-repeat bottom center; padding:0px 0px; height:120vh; position:relative; }
+.iPhone6.inview img.pos-1 { top:25%; }
+.iPhone6.inview img.pos-2 { top:35%; left:8%; }
+.iPhone6.inview img.pos-3 { top:70%; left:22%; }
+.iPhone6.inview img.pos-4 { top:25%; }
+.iPhone6.inview img.pos-5 { top:45%; right:8%; }
+.iPhone6.inview img.pos-6 { top:74%; right:17%; }
+.iPhone6 img { top:200%; -webkit-transition: all 0.5s  ease-out; -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; transition: all 0.5s ease-out; }
+.iPhone6 .left { position:absolute; left:26%; }
+.iPhone6 .right { position:absolute; right:20%; }
+.section-1 { background:#ff3b30; }
+.section-2 {background:#ffcc00; }
